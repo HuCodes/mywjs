@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="京东商城"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <title>我的微金所</title>
+    <!--css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/index.css" rel="stylesheet"/>
+    <!-- 兼容文件 -->
+    <script type="text/javascript">
+    	var ie = !-[1,];  
+    		if(ie == true) {
+    			var ua = navigator.userAgent.toLowerCase();
+    	        var version = parseInt(ua.match(/msie ([\d.]+)/)[1]);
+    	        if(version <= 7) {
+    	            location.href='./404.html'; 
+    	        }
+    		}
+    </script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/nwmatcher.min.js"></script>
+    <script src="js/selectivizr.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!--header-->
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="info hidden-xs">
+					<div class="col-lg-1 col-md-1">
+						<a class="info-a1" href="javaScript:void(null)"><i></i>手机微金所<s></s><p class="info-al-p glyphicon glyphicon-chevron-up"><img src="img/2wm.jpg" height="136" width="120"></p></a>
+					</div>
+					<div class="col-lg-5 col-md-5"><span class="info-span1">4006-89-4006（服务时间：9:00~21:00）</span><a class="info-a2" href="javaScript:void(null)">联系在线客服</a></div>
+					<div class="col-lg-3 col-md-3"><a class="info-a3" href="javaScript:void(null)">常见问题</a><a class="info-a4" href="javaScript:void(null)">财富登录</a></div>
+					<div class="info-right col-lg-3 col-md-3"><a class="btn btn-warning info-a5" href="javaScript:void(null)">免费注册</a><a class="info-a6" href="javaScript:void(null)">登录</a></div>
+				</div>
+				<div class="ornament-border"></div>
+				<nav class="nav-pc navbar hidden-xs" role="navigation">
+				  	<div class="nav-pc-header navbar-header">
+				      <a class="navbar-brand" href="javaScript:void(null)">
+				      	<img src="img/logo.jpg" alt="">
+				      </a>
+				    </div>
+				    <ul class="nav-pc-right nav navbar-nav navbar-right">
+				        <li><a href="javaScript:void(null)">个人中心</a></li>
+				    </ul>
+				    <ul class="nav-pc-left nav navbar-nav">
+				        <li class="active"><a href="javaScript:void(null)">我要投资</a></li>
+				        <li><a href="javaScript:void(null)">我要借款</a></li>
+				        <li><a href="javaScript:void(null)">平台介绍</a></li>
+				        <li><a href="javaScript:void(null)">新手专区</a></li>
+				        <li><a href="javaScript:void(null)">最新动态</a></li>
+				        <li><a href="javaScript:void(null)">联系我们</a></li>
+				    </ul>
+				</nav>
+				<nav class="nav-m navbar visible-xs-block" role="navigation">
+				  	<div class="nav-m-right nav navbar-nav navbar-right">
+				        <a href="javaScript:void(null)">个人中心</a>
+				    </div>
+				  	<div class="nav-m-header navbar-header">
+				      	<a id="navAction" class="navbar-brand" href="javaScript:void(null)">
+			                <button href="javaScript:void(null)" class="pull-left navbar-toggle collapsed">
+			                    <span class="sr-only"></span>
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+			                </button>
+			                <h1 class="pull-left">导航</h1>
+			            </a>
+					    <div class="nav-m-header-show">
+						    <ul class="show-u1 nav navbar-nav">
+						    	<li><strong>您好亲，您还没登录哦</strong><br /><small>欢迎来到微金所！</small></li>
+						    	<li class="li1"><a href="javaScript:void(null)">登录账号</a></li>
+						    	<li class="li2"><a href="javaScript:void(null)">注册账号</a></li>
+						    </ul>
+						    <ul class="show-u2 nav navbar-nav">
+						    	<li class="li1"><a href="javaScript:void(null)">首页</a></li>
+						        <li class="li2"><a href="javaScript:void(null)">我要投资</a></li>
+						        <li class="li3"><a href="javaScript:void(null)">平台介绍</a></li>
+						        <li class="li4"><a href="javaScript:void(null)">新手专区</a></li>
+						        <li class="li5"><a href="javaScript:void(null)">最新动态</a></li>
+						        <li class="li6"><a href="javaScript:void(null)">下载APP</a></li>
+						        <li class="li7"><a href="javaScript:void(null)">在线客服</a></li>
+						    </ul>
+					    </div>
+				    </div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!--/header-->
+
+	<!-- body -->
+	<section id="banner">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			</ol>
+		  	<div class="carousel-inner" role="listbox">
+		    	<div class="item active" data-img-lg="img/banner-2000x410-1.jpg" data-img-xs="img/banner-640x340-1.jpg"></div>
+                <div class="item" data-img-lg="img/banner-2000x410-2.jpg" data-img-xs="img/banner-640x340-2.jpg">
+                </div>
+                <div class="item" data-img-lg="img/banner-2000x410-3.jpg" data-img-xs="img/banner-640x340-3.jpg">
+                </div>
+                <div class="item" data-img-lg="img/banner-2000x410-4.jpg" data-img-xs="img/banner-640x340-4.jpg">
+                </div>
+                <div class="item" data-img-lg="img/banner-2000x410-5.jpg" data-img-xs="img/banner-640x340-5.jpg">
+                </div>
+            </div>
+		  	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    	<span class="glyphicon glyphicon-chevron-left"></span>
+		    	<span class="sr-only">Previous</span>
+		  	</a>
+		  	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    	<span class="glyphicon glyphicon-chevron-right"></span>
+		    	<span class="sr-only">Next</span>
+		  	</a>
+		</div>
+	</section>
+	<section id="features" class="hidden-xs">
+		<div class="container">
+			<div class="info row">
+				<a href="javaScript:void(null)" class="info-a1 col-lg-4 col-sm-4 col-md-4"><strong>支付交易保障</strong><br /><span>银联支付全程保障资金安全</span></a>
+				<a href="javaScript:void(null)" class="info-a2 col-lg-4 col-sm-4 col-md-4"><strong>平台财产安全</strong><br /><span>由PICC保驾护航</span></a>
+				<a href="javaScript:void(null)" class="info-a3 col-lg-4 col-sm-4 col-md-4"><strong>资金安全</strong><br /><span>华兴银行资金存管</span></a>
+				<a href="javaScript:void(null)" class="info-a4 col-lg-4 col-sm-4 col-md-4"><strong>安全保障</strong><br /><span>独创八层安全保障机制</span></a>
+				<a href="javaScript:void(null)" class="info-a5 col-lg-4 col-sm-4 col-md-4"><strong>筛选优质资产</strong><br /><span>对接上海资信征信系统</span></a>
+				<a href="javaScript:void(null)" class="info-a6 col-lg-4 col-sm-4 col-md-4"><strong>联合信息发布</strong><br /><span>与路透社共同发布利率指数报告</span></a>
+			</div>
+		</div>
+	</section>
+	<section id="book">
+		<div class="container">
+			<div class="info row">
+				<p class="p1 col-lg-9 col-md-9 col-sm-9 col-xs-12"><span class="info-item1"></span></p>
+				<p class="p2 col-lg-3 col-md-3 col-sm-3 hidden-xs text-right"><span  class="info-item2"><a class="item2-video" href="javaScript:void(null)">&nbsp;微金所企业宣传片</a></span></p>
+				<p class="p3 col-lg-9 col-md-9 col-sm-9 col-xs-12">
+					<span class="info-item3"><a href="javaScript:void(null)">什么是预约投标？</a><a class="item3-bespoke" href="javaScript:void(null)">立即预约</a></span>
+				</p>
+				<p class="p4 col-xs-5 visible-xs-block"><span class="info-item2"><a class="item2-video" href="javaScript:void(null)">&nbsp;微金所企业宣传片</a></span></p>
+				<p class="p5 col-lg-3 col-md-3 col-sm-3 col-xs-7 text-right">
+					<strong class="info-item4">市场有风险，投资需谨慎</strong>
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="projects">
+		<h1 class="hidden-xs">我们精心为您推荐以下项目</h1>
+		<div class="container">
+			<div class="row">
+				<div class="projects-pc-left col-lg-5 col-md-5 col-sm-5 hidden-xs">
+					<header class="header">
+						<h2 id="pc-novice_issue"></h2>
+						<span>新注册客户<br />的投资体验产品</span>
+						<div class="xszxbg"></div>
+						<strong class="xszx">新手<br />专享</strong>
+					</header>
+					<ul class="body clearfix">
+						<li class="body-li1"><strong  id="pc-novice_yearOfYield"></strong><i>%</i><br /><span>年化收益率</span></li>
+						<li class="body-li2"><i id="pc-novice_termOfLoan"></i><br /><span>借款期限</span></li>
+						<li class="body-li3"><i id="pc-novice_alreadyVotedNumber"></i><br /><span>已投人数</span></li>
+						<li class="body-li4">
+							<s id="pc-novice_investmentProgress"></s>
+							<div class="progress">
+							  <div id="pc-novice_Progress" class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+							  </div>
+							</div>
+							<span>剩余金额</span><i id="pc-novice_surplusmount">￥5,000</i>
+						</li>
+					</ul>
+					<footer class="footer">
+						<span id="pc-novice_minMoney" class="footer-span1"></span>
+						<span id="pc-novice_maxMoney" class="footer-span2"></span><br />
+						<a class="btn btn-warning" href="javaScript:void(null)">立即赚钱</a>
+					</footer>
+				</div>
+				<div class="projects-pc-right col-lg-5 col-md-5 col-sm-5 hidden-xs">
+					<header class="header">
+						<h2>月月盈</h2>
+						<span>灵活性好<br />收益持续疯长</span>
+						<div class="mxcpbg"></div>
+						<strong class="mxcp">明星<br />产品</strong>
+					</header>
+					<ul class="body">
+						<li class="body-li1"><strong id="pc-month_yearOfYield"></strong><i>%</i><br /><span>年化收益率</span></li>
+						<li class="body-li2"><i id="pc-month_termOfLoan"></i><br /><span>投资期限</span></li>
+						<li class="body-li3"><i id="pc-month_totalAmount"></i><br /><span>产品额度</span></li>
+						<li class="body-li4 star"><s><i></i></s><br /><span>产品星级</span></li>
+					</ul>
+					<footer class="footer">
+						<span id="pc-month_remark1" class="footer-span1"></span>
+						<span id="pc-month_remark2" class="footer-span2"></span>
+						<span class="footer-span3">投资即计息</span>
+						<a class="btn btn-warning" href="javaScript:void(null)">立即赚钱</a>
+					</footer>
+				</div>
+				<div class="projects-m-left theme2 visible-xs-block col-xs-12px">
+					<div class="right">
+						<div class="topcircle"></div><br /><br />
+						<strong id="m-novice_yearOfYield" class="yield"></strong><span>%</span><br />
+						<span>年化收益率</span><br />
+						<s>利随本清</s>
+						<div class="bottomcircle"></div>
+					</div>
+					<div class="left">
+						<h3 id="m-novice_issue"></h3>
+						<div class="topbody clearfix">
+							<div class="pull-right">
+								<span>已投标人数</span><br />
+								<strong id="m-novice_alreadyVotedNumber"></strong><span>人</span><br />
+							</div>
+							<div class="pull-left">
+								<span>借款期限</span><br />
+								<strong id="m-novice_termOfLoan"></strong>
+							</div>
+						</div>
+						<div class="bottombody clearfix">
+							<div class="pull-left">
+								<span>剩余金额</span><br />
+								<strong id="m-novice_surplusmount"></strong>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="projects-m-right theme3 visible-xs-block col-xs-12px">
+					<div class="right">
+						<div class="topcircle"></div><br /><br />
+						<strong id="m-month_yearOfYield" class="yield"></strong><span>%</span><br />
+						<span>年化收益率</span><br />
+						<s>利随本清</s>
+						<div class="bottomcircle"></div>
+					</div>
+					<div class="left">
+						<h3>月月盈</h3>
+						<div class="topbody clearfix">
+							<div class="pull-right">
+								<span>产品额度</span><br />
+								<strong id="m-month_totalAmount"></strong><br />
+							</div>
+							<div class="pull-left">
+								<span>投资期限</span><br />
+								<strong id="m-month_termOfLoan"></strong>
+							</div>
+						</div>
+						<div class="bottombody clearfix">
+							<div class="star pull-left">
+								<span>产品星级</span><br />
+								<s><i></i></s>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+				<div class="row">
+					<nav id="projects-nav" class="projects-nav col-lg-12 navbar" role="navigation">
+					    <ul class="col-lg-12 nav navbar-nav">
+					        <li class="col-lg-1 col-md-1 col-sm-3 col-xs-3 active"><a class="projects-ul1-a1" href="javaScript:void(null)">特别推荐</a></li>
+					        <li class="col-lg-1 col-md-1 col-sm-3 col-xs-3 visible-sm-block visible-xs-block"><a class="projects-ul1-a5" href="javaScript:void(null)">海航<span class="tongbao">通宝<img src="img/Hot.png"></span></a></li>
+					        <li class="col-lg-1 col-md-1 col-sm-3 hidden-sm hidden-xs"><a class="projects-ul1-a2" href="javaScript:void(null)">微投资</a></li>
+					        <li class="col-lg-1 col-md-1 col-sm-3 col-xs-3"><a class="projects-ul1-a3" href="javaScript:void(null)">月月盈</a></li>
+					        <li class="col-lg-1 col-md-1 col-sm-3 col-xs-3"><a class="projects-ul1-a4" href="javaScript:void(null)">稳赢保</a></li>
+					        <li class="col-lg-1 col-md-1 hidden-sm hidden-xs"><a class="projects-ul1-a5" href="javaScript:void(null)">海航<span class="tongbao">通宝<img src="img/Hot.png"></span></a></li>
+					        <li class="col-lg-1 col-md-1 col-sm-2 visible-sm-block col-xs-2 visible-xs-block"><a class="projects-ul1-a2" href="javaScript:void(null)">微投资</a></li>
+					        <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2"><a class="projects-ul1-a6" href="javaScript:void(null)">微金宝</a></li>
+					        <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2"><a class="projects-ul1-a7" href="javaScript:void(null)">微小宝</a></li>
+					        <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2"><a class="projects-ul1-a8" href="javaScript:void(null)">微消费</a></li>
+					        <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2"><a class="projects-ul1-a9" href="javaScript:void(null)">微转让</a></li>
+					    </ul>
+					</nav>
+				</div>
+		</div>
+		<div class="container">
+			<ul class="row a1-show">
+				<li class="col-xs-12px col-sm-6 col-md-4 col-lg-4 item1 theme1">
+					<div class="right">
+						<div class="topcircle"></div>
+						<a class="address" href="javaScript:void(null)" title="北京市">京</a>
+						<a class="rz" href="javaScript:void(null)" title="实地认证">实</a>
+						<a class="gu" href="javaScript:void(null)" title="股权质押">股</a><br/><br/>
+						<strong class="yield">8</strong><span>%</span><br />
+						<span>年化收益率</span><br />
+						<s>月付息</s>
+						<div class="bottomcircle"></div>
+					</div>
+					<div class="left">
+						<h3>股权质押-鸿鑫互联三期</h3>
+						<div class="topbody clearfix">
+							<div class="pull-right">
+								<span>产品星级</span><br />
+								<s><i></i></s><br />
+							</div>
+							<div class="pull-left">
+								<span>起投金额</span><br />
+								<strong>0.01</strong><i>万</i>
+							</div>
+						</div>
+						<div class="bottombody clearfix">
+							<div class="pull-right">
+								<span>投资进度60%</span>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+								  </div>
+								</div>
+							</div>
+							<div class="pull-left">
+								<span>借款期限</span><br />
+								<strong>10天</strong>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="col-xs-12px col-sm-6 col-md-4 col-lg-4 item2 theme1">
+					<div class="right">
+						<div class="topcircle"></div>
+						<a class="address" href="javaScript:void(null)" title="北京市">京</a>
+						<a class="rz" href="javaScript:void(null)" title="实地认证">实</a>
+						<a class="gu" href="javaScript:void(null)" title="股权质押">股</a><br/><br/>
+						<strong class="yield">8</strong><span>%</span><br />
+						<span>年化收益率</span><br />
+						<s>月付息</s>
+						<div class="bottomcircle"></div>
+					</div>
+					<div class="left">
+						<h3>股权质押-鸿鑫互联三期</h3>
+						<div class="topbody clearfix">
+							<div class="pull-right">
+								<span>产品星级</span><br />
+								<s><i></i></s><br />
+							</div>
+							<div class="pull-left">
+								<span>起投金额</span><br />
+								<strong>0.01</strong><i>万</i>
+							</div>
+						</div>
+						<div class="bottombody clearfix">
+							<div class="pull-right">
+								<span>投资进度60%</span>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+								  </div>
+								</div>
+							</div>
+							<div class="pull-left">
+								<span>借款期限</span><br />
+								<strong>10天</strong>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="col-xs-12px col-sm-6 col-md-4 col-lg-4 item3 theme1">
+					<div class="right">
+						<div class="topcircle"></div>
+						<a class="address" href="javaScript:void(null)" title="北京市">京</a>
+						<a class="rz" href="javaScript:void(null)" title="实地认证">实</a>
+						<a class="gu" href="javaScript:void(null)" title="股权质押">股</a><br/><br/>
+						<strong class="yield">8</strong><span>%</span><br />
+						<span>年化收益率</span><br />
+						<s>月付息</s>
+						<div class="bottomcircle"></div>
+					</div>
+					<div class="left">
+						<h3>股权质押-鸿鑫互联三期</h3>
+						<div class="topbody clearfix">
+							<div class="pull-right">
+								<span>产品星级</span><br />
+								<s><i></i></s><br />
+							</div>
+							<div class="pull-left">
+								<span>起投金额</span><br />
+								<strong>0.01</strong><i>万</i>
+							</div>
+						</div>
+						<div class="bottombody clearfix">
+							<div class="pull-right">
+								<span>投资进度60%</span>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+								  </div>
+								</div>
+							</div>
+							<div class="pull-left">
+								<span>借款期限</span><br />
+								<strong>10天</strong>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="col-xs-12px col-sm-6 col-md-4 col-lg-4 item4 theme1">
+					<div class="right">
+						<div class="topcircle"></div>
+						<a class="address" href="javaScript:void(null)" title="北京市">京</a>
+						<a class="rz" href="javaScript:void(null)" title="实地认证">实</a>
+						<a class="gu" href="javaScript:void(null)" title="股权质押">股</a><br/><br/>
+						<strong class="yield">8</strong><span>%</span><br />
+						<span>年化收益率</span><br />
+						<s>月付息</s>
+						<div class="bottomcircle"></div>
+					</div>
+					<div class="left">
+						<h3>股权质押-鸿鑫互联三期</h3>
+						<div class="topbody clearfix">
+							<div class="pull-right">
+								<span>产品星级</span><br />
+								<s><i></i></s><br />
+							</div>
+							<div class="pull-left">
+								<span>起投金额</span><br />
+								<strong>0.01</strong><i>万</i>
+							</div>
+						</div>
+						<div class="bottombody clearfix">
+							<div class="pull-right">
+								<span>投资进度60%</span>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+								  </div>
+								</div>
+							</div>
+							<div class="pull-left">
+								<span>借款期限</span><br />
+								<strong>10天</strong>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="col-xs-12px col-sm-6 col-md-4 col-lg-4 item5 theme1">
+					<div class="right">
+						<div class="topcircle"></div>
+						<a class="address" href="javaScript:void(null)" title="北京市">京</a>
+						<a class="rz" href="javaScript:void(null)" title="实地认证">实</a>
+						<a class="gu" href="javaScript:void(null)" title="股权质押">股</a><br/><br/>
+						<strong class="yield">8</strong><span>%</span><br />
+						<span>年化收益率</span><br />
+						<s>月付息</s>
+						<div class="bottomcircle"></div>
+					</div>
+					<div class="left">
+						<h3>股权质押-鸿鑫互联三期</h3>
+						<div class="topbody clearfix">
+							<div class="pull-right">
+								<span>产品星级</span><br />
+								<s><i></i></s><br />
+							</div>
+							<div class="pull-left">
+								<span>起投金额</span><br />
+								<strong>0.01</strong><i>万</i>
+							</div>
+						</div>
+						<div class="bottombody clearfix">
+							<div class="pull-right">
+								<span>投资进度60%</span>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+								  </div>
+								</div>
+							</div>
+							<div class="pull-left">
+								<span>借款期限</span><br />
+								<strong>10天</strong>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="col-xs-12px col-sm-6 col-md-4 col-lg-4 item6 theme1">
+					<div class="right">
+						<div class="topcircle"></div>
+						<a class="address" href="javaScript:void(null)" title="北京市">京</a>
+						<a class="rz" href="javaScript:void(null)" title="实地认证">实</a>
+						<a class="gu" href="javaScript:void(null)" title="股权质押">股</a><br/><br/>
+						<strong class="yield">8</strong><span>%</span><br />
+						<span>年化收益率</span><br />
+						<s>月付息</s>
+						<div class="bottomcircle"></div>
+					</div>
+					<div class="left">
+						<h3>股权质押-鸿鑫互联三期</h3>
+						<div class="topbody clearfix">
+							<div class="pull-right">
+								<span>产品星级</span><br />
+								<s><i></i></s><br />
+							</div>
+							<div class="pull-left">
+								<span>起投金额</span><br />
+								<strong>0.01</strong><i>万</i>
+							</div>
+						</div>
+						<div class="bottombody clearfix">
+							<div class="pull-right">
+								<span>投资进度60%</span>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+								  </div>
+								</div>
+							</div>
+							<div class="pull-left">
+								<span>借款期限</span><br />
+								<strong>10天</strong>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="news" class="container">
+        <h3>全部新闻</h3>
+        <nav>
+            <ul>
+                <li><a class="all action text-hide" href="javaScript:void(null)">全部新闻</a></li>
+                <li><a class="meta text-hide" href="javaScript:void(null)">媒体报道</a></li>
+                <li><a class="wjstt text-hide" href="javaScript:void(null)">微金所头条</a></li>
+                <li><a class="trade text-hide" href="javaScript:void(null)">行业资讯</a></li>
+            </ul>
+        </nav>
+        <ul class="info">
+            <li class="meta-new all-new"><a href="javaScript:void(null)">【中国经济新闻网】微金所范忠民：小额分散将成行业重点</a></li>
+            <li class="trade-new all-new"><a href="javaScript:void(null)">【财经头条网】微金所与前海航交所携手推出安全优质的理财产品—海航金宝！</a></li>
+            <li class="wjstt-new all-new"><a href="javaScript:void(null)">【微公告】关于因广发、光大、中国银行系统升级暂停充值服务的公告</a></li>
+            <li class="meta-new all-new"><a href="javaScript:void(null)">【中国经济导报】微金所坚持普惠金融之路，积极拥抱网贷监管办法</a></li>
+            <li class="trade-new all-new"><a href="javaScript:void(null)">【微动态】微金所董事长范忠民应邀出席“中国高成长企业CEO峰会”</a></li>
+            <li class="trade-new all-new"><a href="javaScript:void(null)">【微关注】人大教授：未来每个人都是银行</a></li>
+            <li class="meta-new all-new"><a href="javaScript:void(null)">【搜狐财经】微金所获宝新能源5000万人民币战略注资</a></li>
+            <li class="meta-new all-new"><a href="javaScript:void(null)">
+            【新华网】微金所董事长范忠民做客新华网与网友在线交流</a></li>
+            <li class="trade-new all-new"><a href="javaScript:void(null)">【微动态】“微金融与民生大讲堂”全国巡讲之厦门站</a></li>
+            <li class="wjstt-new all-new"><a href="javaScript:void(null)">【微公告】关于因平安银行系统升级暂停充值与提现服务的公告</a></li>
+            <li class="wjstt-new all-new"><a href="javaScript:void(null)">【微动态】邀好友获豪礼，iPhone7等高端礼品免费拿！</a></li>
+            <li class="meta-new all-new"><a href="javaScript:void(null)">【新华网】社科院首发网贷评级100强名单 微金所位列北京第6名</a></li>
+            <li class="wjstt-new all-new"><a href="javaScript:void(null)">【微公告】2016年10月10日微金所平台系统升级维护公告</a></li>
+            <li class="meta-new all-new"><a href="javaScript:void(null)">【搜狐财经】网货监管细则落地，微金所夯实小微急健前行</a></li>
+            <li class="wjstt-new all-new"><a href="javaScript:void(null)">【微动态】10月新用户注册送100元红包！</a></li>
+            <li class="wjstt-new all-new"><a href="javaScript:void(null)">【微还款】一周还款公告2016年9月26日-10月2日</a></li>
+            <li class="meta-new all-new"><a href="javaScript:void(null)">【中国经济新闻网】微金所范忠民：小额分散将成行业重点</a></li>
+            <li class="trade-new all-new"><a href="javaScript:void(null)">【微动态】王石，范忠民一行企业家哀牢山拜访褚时健</a></li>
+            <li class="wjstt-new all-new"><a href="javaScript:void(null)">【微还款】一周还款公告2016年10月10日-10月16日</a></li>
+            <li class="trade-new all-new"><a href="javaScript:void(null)">【微关注】微金所范忠民：《指导意见》的“三大鼓励，八项注意”</a></li>
+            <li class="trade-new all-new"><a href="javaScript:void(null)">【微关注】政策动态：P2P监管划归草案已上报国务院</a></li>
+        </ul>
+    </section>
+	<!-- /body -->
+
+	<!--footer-->
+	<footer id="footer" class="hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="partner">
+					<h1>合作伙伴</h1>
+					<ul class="list-inline">
+						<li><a href="javaScript:void(null)">银联支付</a></li>
+						<li><a href="javaScript:void(null)">中国人保</a></li>
+						<li><a href="javaScript:void(null)">THOM SON REUTERS</a></li>
+						<li><a href="javaScript:void(null)">中国人寿</a></li>
+						<li><a href="javaScript:void(null)">上海资信</a></li>
+						<li><a href="javaScript:void(null)">中国金融认证中心</a></li>
+						<li><a href="javaScript:void(null)">百度</a></li>
+						<li><a href="javaScript:void(null)">361</a></li>
+					</ul>
+				</div>
+				<nav class="navbar" role="navigation">
+					<ul class="nav navbar-nav">
+						<li><a href="javaScript:void(null)">公司介绍</a></li>
+						<li><a href="javaScript:void(null)">管理团队</a></li>
+						<li><a href="javaScript:void(null)">新手指引</a></li>
+						<li><a href="javaScript:void(null)">安全保障</a></li>
+						<li><a href="javaScript:void(null)">合作伙伴</a></li>
+						<li><a href="javaScript:void(null)">友情链接</a></li>
+						<li><a href="javaScript:void(null)">最新动态</a></li>
+						<li><a href="javaScript:void(null)">诚聘英才</a>&nbsp;&nbsp;&nbsp;|</li>
+						<li><a href="javaScript:void(null)">会员注册</a></li>
+						<li><a href="javaScript:void(null)">忘记密码</a>&nbsp;&nbsp;&nbsp;|</li>
+						<li><a href="javaScript:void(null)">如何提现</a></li>
+						</li>
+					</ul>
+					<ul class="nav-right nav navbar-nav navbar-right hidden-sm hidden-xs">
+						<li>
+							<a class="weixin" href="javaScript:void(null)">微金所微信
+								<i class="weixing-2wm"></i>
+							</a>
+						</li>
+						<li><a href="javaScript:void(null)">微金所新浪微博</a></li>
+						<li><a href="javaScript:void(null)">微金所腾讯微博</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="info">
+			<p>©版权所有©深圳微金所金融信息服务有限公司 粤ICP备 16000732号-1</p>
+			<div class="container">
+				<div class="row">
+					<a href="javaScript:void(null)">中国金融认证中心</a>
+					<a href="javaScript:void(null)">361网站安全检测</a>
+					<a href="javaScript:void(null)">net chine.cn net chine.com.cn</a>
+					<a href="javaScript:void(null)">网络社会证信网</a>
+					<a href="javaScript:void(null)">国际域名证书</a>
+					<a href="javaScript:void(null)">行业验证</a>
+					<a href="javaScript:void(null)">可信网站</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/footer-->
+
+	<!--js文件-->
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/myJs.js"></script>
+</body>
+</html>
